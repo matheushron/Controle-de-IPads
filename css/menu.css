@@ -1,0 +1,239 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+body{
+	font-family: arial;
+
+}
+
+ul{
+
+	list-style: none;
+	top: 70px;
+	position: absolute;
+	width: 100%;
+}
+
+img{
+
+	width: 40px;
+	display: block;
+}
+
+img#logo{
+	width: 70px;
+	margin-left: 5px;
+	margin-top: -15px;
+}
+
+
+
+input[type="checkbox"]{
+	display: none;
+}
+
+nav{
+	background-color: rgba(16, 16, 16, .5);
+	display: block;
+	width: 250px;
+	height: 656px;
+	left: -250px;
+	position: absolute;
+	transition: all .5s;
+	
+}
+
+a{
+
+	display: block;
+	padding:20px 5px;
+	color: white;
+}
+
+a:hover{
+	background-color: rgb(176, 224, 230);
+	color: black;
+}
+
+
+label#menu{
+	display: block;
+	padding:15px;
+	position: absolute;
+	z-index: 1;
+}
+
+input[type="checkbox"]:checked~nav
+	{transform: translatex(250px);
+}
+
+
+div#cabecalho{
+
+	width: 100%;
+	height: 80px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #EEE9E9;
+	margin: 0px auto 0px auto;
+
+}
+
+
+
+div#rodape{
+
+	width: 100%;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #EEE9E9;
+	margin-bottom: 0px;
+
+}
+
+div#rodape>h1{
+	font-size: .7rem;
+	text-align: center;
+
+
+}
+
+div#corpoauto{
+	min-height:656px;
+	margin-left:0px;
+    background-image: url("imagens/fundo.jpg");
+    background-size: 100%;
+    width: 100%;
+    border: 1px solid;
+}
+
+div#corpoauto>h1{
+	text-align: center;
+	color: white;
+}
+
+div.dformulario{
+
+	padding:15px 5px;
+	width: 100%;
+
+
+}
+
+input#cad_per_perfil{
+	width: 600px; 
+	margin-left:20px;
+	border: 1px solid white;
+    height: 25px;
+
+}
+
+input#nomeUsuario{
+	width: 600px; 
+	margin-left:20px;
+	border: 1px solid white;
+    height: 25px;
+
+}
+
+input#emailUsuario{
+	width: 600px; 
+	margin-left:20px;
+	border: 1px solid white;
+    height: 25px;
+
+}
+
+input#senhaUsuario{
+	width: 300px; 
+	margin-left:20px;
+	border: 1px solid white;
+    height: 25px;
+
+
+
+}
+
+select#ssituacao{
+	width: 300px; 
+	margin-left:20px;
+	border: 1px solid white;
+    height: 30px;
+
+
+}
+
+select#ssituacaoUsuario{
+	width: 300px; 
+	margin-left:20px;
+	border: 1px solid white;
+    height: 30px;
+
+
+}
+/*fim imput cadastro de usuario*/
+/*cadastro de situação*/
+input#cad_sit_situacao{
+	width: 600px; 
+	margin-left:20px;
+	border: 1px solid white;
+    height: 25px;
+
+}
+
+div.cad_sit_dbotao{
+	display: table; /*inline*/
+	padding:20px 5px;
+	margin-left:20px;
+
+	/*margin-top: 470px;*/
+}
+
+div.cad_sit_fformulario{
+
+	width: 800px; 
+}
+
+input#cad_sit_dsituacao{
+	display: inline;
+}
+
+
+/*fim cadastro de situacao*/
+
+div.dformulario>label{
+	width: 160px;
+	text-align: left;
+	display: block;
+	font-weight: bold;
+	background: white;
+	margin-left:20px;
+	border: 1px solid white;
+    height: 25px;
+}
+
+div.fformulario{
+	display: block;
+	width: 100%; 
+
+}
+div#logo{
+	width:90px; 
+	height: 80px;
+	margin-left: 15px;	
+
+}
+
+.cad_sit_dbotao>input {
+	display: inline;
+  	width: 120px;
+}

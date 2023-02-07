@@ -1,0 +1,315 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	/*background-image: url("imagens/fundologin.jpg");*/
+	/*background-color: #b5b5b5;*/
+	background-position: 50% 70%;
+
+
+}
+
+input{
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 10px;
+	border:1px solid #D8D8D8;
+	font-size: 16pt;
+	padding:10px 20px;
+	background-color: rgba(255, 255, 255, 0.10);
+	color: black;
+	outline: none;
+
+}
+
+div#corpo-form{
+	background-image: url("imagens/teste.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: WHITE;
+	width: 420px;
+	height: 400px;
+	margin: 150px auto 0px auto;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.4);
+
+}
+
+
+div#corpo-form-cad{
+	/*background-color: #CCFFFF;*/
+	width: 420px;
+	margin: 100px auto 0px auto;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+	
+}
+
+div#corpo-form h1, div#corpo-form-cad h1{
+	text-align: center;
+	padding:50px;
+	color: white;
+
+
+}
+
+
+/*a{
+	color: #b5b5b5;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}*/
+
+#btnEntrar {
+	background-color: #424242;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	color: white;
+}
+
+::-webkit-input-placeholder {
+   color: black;
+}
+ 
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+ 
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+ 
+:-ms-input-placeholder {  
+   color: black;  
+}
+
+div#msg-sucesso{
+	width: 380px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(50, 205, 50,.3);
+	border: 1px solid rgb(34,139,34)
+}
+
+div.msg-erro{
+	width: 380px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(255, 128, 114,.3);
+	border: 1px solid rgb(164,42,42)
+}
+	
+form#fusuario{
+	margin-top: 10px;
+}
+
+
+
+        .menu_card {
+          padding: 15px;
+          float: left;
+          background: linear-gradient(to left, #aedfef 0%, #fff 100%);
+          margin: 15px;
+          border-radius: 5px;
+          text-align: center;
+          width: 220px;
+          display: table;
+          height: 130px;
+          color: #457c8f;
+          cursor: pointer;
+        }
+
+        .menu_card2 {
+          padding: 15px;
+          float: left;
+          background: linear-gradient(to left, #aedfef 0%, #fff 100%);
+          margin: 0px;
+          border-radius: 5px;
+          text-align: center;
+          width: 220px;
+          display: table;
+          height: 130px;
+          color: #457c8f;
+          cursor: pointer;
+        }
+
+        input[type="checkbox"]#chec{
+        	display: none;	
+		}
+
+		nav.navlista{
+			background: linear-gradient(to left, #aedfef 0%, #fff 100%);
+			display: block;
+			width: 235px;
+			height: 656px;
+			left: -250px;
+			position: absolute;
+			transition: all .5s;
+			margin-top: 45px;
+			}
+
+		input[type="checkbox"]#chec:checked~nav
+			{
+				transform: translatex(250px);
+			}
+
+		ul{
+
+			list-style: none;
+			top: 70px;
+			position: absolute;
+			width: 100%;
+		}
+
+		a{
+
+			display: block;
+			padding:20px 5px;
+			color: #457c8f;
+		}
+		a:hover{
+			background-color: rgb(176, 224, 230);
+			color: black;
+		}
+		label#menu{
+          padding: 0px;
+          float: left;
+          background: linear-gradient(to left, #aedfef 0%, #fff 100%);
+          margin: 15px;
+          border-radius: 5px;
+          text-align: center;
+          width: 200px;
+          display: table;
+          height: 130px;
+          color: #457c8f;
+          cursor: pointer;
+
+
+		}
+
+		label#menu2{
+          padding: 0px;
+          float: left;
+          background: linear-gradient(to left, #aedfef 0%, #fff 100%);
+          margin: 15px;
+          border-radius: 5px;
+          text-align: center;
+          width: 200px;
+          display: table;
+          height: 130px;
+          color: #457c8f;
+          cursor: pointer;
+
+		}
+
+		div#linha{
+			background:black;
+		height: 100px;
+		}
+		div.divcadastro{
+			border: solid 1px;
+			margin-left: 2px;
+			color: cornflowerblue;
+			width: 100%;
+		}
+		input.inputcodigo{
+			width: 180px;
+			display: inline;
+			height: 20;
+			border-radius: 0px;
+			border: solid 1px;
+			margin-left: 10px;
+			vertical-align: sub;			
+    		color: cornflowerblue;
+
+
+		}
+
+		input.inputdescricao{
+			width: 500px;
+			display: inline;
+			height: 20;
+			border-radius: 0px;
+			border: solid 1px;
+			margin-left: 10px;
+			vertical-align: sub;			
+    		color: cornflowerblue;
+
+		}
+		div.conversaodeapresntacaolabel>th>td>label{
+			margin-left: 10px;
+
+
+		}
+		table, th, td {
+
+  			border-collapse: collapse;
+  			margin-left: 10px;
+		}
+		th, td {
+
+  			text-align: left;    
+		}
+		th{
+	    	width: 140px;
+
+		}
+		
+		th.tabelacotaoinserir{
+			width: 40px;
+
+		}
+		th.tabelacotaoinserir:hover{
+			color: #5882FA;
+
+		}
+		td.tabelacotaoeditar{
+			width: 40px;
+
+		}
+		td.tabelacotaoeditar:hover{
+			color: #5882FA;
+
+		}
+		td.tabelacotaoexcluir{
+			width: 40px;
+
+		}
+		td.tabelacotaoexcluir:hover{
+			color: #5882FA;
+
+		}
+		td.tabelacotaopesquisar{
+			width: 40px;
+
+
+		}
+		td.tabelacotaopesquisar:hover{
+			color: #5882FA;
+
+		}
+		td.tabelacotaohistorico{
+			width: 40px;
+
+		}
+		td.tabelacotaohistorico:hover{
+			color: #5882FA;
+
+		}
+		label {
+    		display: inline-block;
+    		margin-bottom: .5rem;
+    		color: #457c8f;
+		}
+
+
+
+
+	
+	
